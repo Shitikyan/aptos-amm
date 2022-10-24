@@ -321,7 +321,7 @@ export default function NetworkSelector() {
           // link to staging website
           if ([SupportedChainId.APTOS_DEVNET, SupportedChainId.APTOS_TESTNET].includes(targetChain)) {
             console.log('if ([SupportedChainId.APTOS_DEVNET, SupportedChainId.APTOS_TESTNET].includes(targetChain))')
-            window.open('https://aptos-interface-6qbo54khd-solicy.vercel.app')
+            window.open('https://aptos-9m204sbhn-solicy.vercel.app/')
             return
           } else {
             console.log('            switchChain(connection, targetChain)')
